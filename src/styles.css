@@ -63,6 +63,7 @@ gap: 10px
     }
 
 .material-symbols-outlined {
+    font-size: 30px;
   font-variation-settings:
   'FILL' 0,
   'wght' 700,
