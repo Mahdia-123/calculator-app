@@ -4,3 +4,78 @@ body{
     color: white;
     box-sizing: border-box;
 }
+.container-fluid{
+    max-width: 350px;
+    border: 1px solid #aaa;
+    border-radius: 50px;
+    display: block;
+    margin: 100px auto;
+    padding: 30px 20px 40px 20px;
+
+}
+.dashboard {
+    width: 100%;
+    padding: 10px;
+    background: rgb(211, 209, 209);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* TOP: expression */
+.display {
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 22px;
+    font-weight: 400;
+    color: #595959;
+}
+
+/* BOTTOM: result */
+.result {
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 32px;
+    font-weight: 600;
+    color: black;
+}
+.numbers{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 10px
+}
+
+.numbers button {
+        aspect-ratio: 1 / 1;
+            width: 100%;
+            font-size: 30px;
+            border: none;
+            border-radius: 50%;
+            background: #333;
+            color: white;
+       
+    }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 60;
+  margin-top: 10px;
+}
+.numbers button.operation{
+    background-color: #ff9200;
+    font-size: 40px;
+}
+.numbers button.color{
+    background-color: #595959;
+    
+    
+}
